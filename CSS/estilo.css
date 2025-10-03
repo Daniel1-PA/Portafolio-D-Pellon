@@ -20,4 +20,15 @@ header {
     /* Margen externo */
     padding: 10px;
     /* Margen interno */
+} 
+
+#foto-perfil{
+    border: solid #000000 5px;
+    border-radius: 10px;
+}
+
+article{
+    border: solid #000000 5px;
+    width: 30%;
+    float: left;
 }
