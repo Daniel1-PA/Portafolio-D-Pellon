@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-    background: rgb(96, 124, 193);
+    background: #6a6e73;
 }
 /* JAKOB NIELSEN */
 h1,h2{
@@ -20,7 +20,7 @@ header {
 } 
 
 #menu-principal{
-    background-color: #081a4a;
+    background-color: #1f2124;
     padding: 10px 20px;
     text-align: center;
 }
@@ -42,21 +42,23 @@ header {
 }
 
 #menu-principal a:hover{
-    background-color: #636c99;
-    color: #0b2331;
+    background-color: #9fa3a9;
+    color: #1f2124;
     padding: 10px;
     border-radius: 10%;
 }
 
 #bienvenida{
-    background-color: #fff9c2;
+    background-color: #393d42;
+    color: white;
     padding: 30px 40px;
 }
 
 #experiencia{
-    background-color: #b8dff5;
+    background-color: #393d42;
+    color: white;
     padding: 30px 40px;
-    border-top: solid 5px red;
+    border-top: solid 5px #171718;
 }
 
 #foto-perfil{
@@ -79,7 +81,9 @@ header {
 
 #habilidades{
     padding: 20px 30px;
-    background-color: #ba5454;
+    background-color: #393d42;
+    color: white;
+    border-top: solid 5px #171718;
 }
 
 .lista-tecnologias{
@@ -90,7 +94,7 @@ header {
 }
 
 .lista-tecnologias li{
-    background-color: #6c49b6;
+    background-color: #9fa3a9;
     color: #000;
     padding: 12px 20px;
     border-radius: 25px;
@@ -103,12 +107,14 @@ progress{
     border-radius: 5px;
     margin: 10px 0;
     text-align: center;
+    
 }
 
 #contacto{
     padding: 30px 20px;
-    background-color: #82c095;
-    border-top: solid 5px #0c3f1c;
+    background-color: #393d42;
+    color: white;
+    border-top: solid 5px #171718;
 }
 
 #contacto label{
@@ -117,7 +123,7 @@ progress{
 
 #contacto input, textarea{
     font-size: 20px;
-    border: solid 1px #260f88;
+    border: solid 1px #9fa3a9;
     padding: 10px;
     width: 30%;
 }
