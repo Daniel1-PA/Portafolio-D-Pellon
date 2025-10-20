@@ -107,10 +107,11 @@ progress{
     border-radius: 5px;
     margin: 10px 0;
     text-align: center;
-    
+    background-color: #171718;
+    appearance: none;
 }
 
-#contacto{
+#contacto input, textarea, select{
     padding: 30px 20px;
     background-color: #393d42;
     color: white;
@@ -119,6 +120,7 @@ progress{
 
 #contacto label{
     font-size: 20px;
+    width: 200px;
 }
 
 #contacto input, textarea{
@@ -140,4 +142,10 @@ progress{
 .campos{
     clear: both;
     padding-top: 20px;
+}
+
+#contacto .opciones{
+    width: 5%;
+    padding: 10px;
+    border: solid 1px #171718;
 }
