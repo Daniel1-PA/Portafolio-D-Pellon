@@ -22,12 +22,14 @@ header {
 #menu-principal{
     background-color: #1f2124;
     padding: 10px 20px;
-    text-align: center;
 }
 
 #menu-principal ul{
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 20px;
     margin: 0;
     padding: 0;
@@ -63,13 +65,13 @@ header {
 
 #foto-perfil{
     border: solid #000000 5px;
-    border-radius: 10px;
+    border-radius: 100%;
 }
 
 #lista-proyectos{
     display: flex;
     gap: 30px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .proyecto{
@@ -109,6 +111,10 @@ progress{
     text-align: center;
     background-color: #171718;
     appearance: none;
+}
+
+progress::-webkit-progress-value{
+    background-color: #1f2124;
 }
 
 #contacto input, textarea, select{
